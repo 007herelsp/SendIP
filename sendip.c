@@ -26,7 +26,9 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <netdb.h>
-
+#include <linux/if_packet.h>
+#include <net/ethernet.h>
+#include <net/if.h>
 /* everything else */
 #include <unistd.h>
 #include <stdlib.h>
@@ -145,6 +147,23 @@ static int sendpacket(sendip_data *data, char *hostname, int af_type,
     free(to);
     return -1;
   }
+
+  //////////
+  // bind dev name
+    struct sockaddr_ll sa;
+    memset(&sa, 0, sizeof(sa));
+    // sa.sll_family = AF_PACKET;
+    // sa.sll_protocol = htons(ETH_P_ALL);
+    const char* dev_name = "vethd738fbb";
+    sa.sll_ifindex = if_nametoindex(dev_name);
+    printf("sll_ifindex%d:\n", sa.sll_ifindex);
+    
+ if (setsockopt(s, SOL_SOCKET, SO_BINDTODEVICE, dev_name, strlen(dev_name)) < 0) {
+       perror("SO_BINDTODEVICE");
+       return 1;
+    }
+
+  //////////
   
   /* Set socket options */
   if(verbose) printf("Setting socket options:\n");
