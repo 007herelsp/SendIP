@@ -403,7 +403,7 @@ static void print_usage(void) {
   printf(" -v\t\tbe verbose\n");
   
   printf("\n\nModules are loaded in the order the -p option appears.  The headers from\n");
-  printf("each module are put immediately inside the headers from the previos model in\n");
+  printf("each module are put immediately inside the headers from the previous model in\n");
   printf("the final packet.  For example, to embed bgp inside tcp inside ipv4, do\n");
   printf("sendip -p ipv4 -p tcp -p bgp ....\n");
   
