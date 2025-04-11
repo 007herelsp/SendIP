@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,ipv4.so -o ipv4.so CMakeFiles/ipv4.dir/ipv4.c.o  libCOMMON_LIB.a 

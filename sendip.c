@@ -154,9 +154,16 @@ static int sendpacket(sendip_data *data, char *hostname, int af_type,
     memset(&sa, 0, sizeof(sa));
     // sa.sll_family = AF_PACKET;
     // sa.sll_protocol = htons(ETH_P_ALL);
-    const char* dev_name = "vethd738fbb";
+
+    const char* dev_name = getenv("ETH_INTERFACE_NAME");
+    
+    if (dev_name == NULL) {
+        printf("Set the ETH_INTERFACE_NAME environment variable to specify which network card you want to work with: \n");
+        return -1;
+    }
+
     sa.sll_ifindex = if_nametoindex(dev_name);
-    printf("sll_ifindex%d:\n", sa.sll_ifindex);
+    printf("sll_ifindex%d:%s\n", sa.sll_ifindex,dev_name);
     
  if (setsockopt(s, SOL_SOCKET, SO_BINDTODEVICE, dev_name, strlen(dev_name)) < 0) {
        perror("SO_BINDTODEVICE");

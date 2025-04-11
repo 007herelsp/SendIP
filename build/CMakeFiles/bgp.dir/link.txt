@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,bgp.so -o bgp.so CMakeFiles/bgp.dir/bgp.c.o  libCOMMON_LIB.a 

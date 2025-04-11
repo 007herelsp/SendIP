@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/sendip.dir/sendip.c.o CMakeFiles/sendip.dir/gnugetopt.c.o CMakeFiles/sendip.dir/gnugetopt1.c.o CMakeFiles/sendip.dir/compact.c.o -o sendip  -ldl 

@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -g -fPIC -o CMakeFiles/COMMON_LIB.dir/csum.c.o -c /home/gpu/work/sendip/SendIP/csum.c",
+  "file": "/home/gpu/work/sendip/SendIP/csum.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -g -fPIC -o CMakeFiles/COMMON_LIB.dir/compact.c.o -c /home/gpu/work/sendip/SendIP/compact.c",
+  "file": "/home/gpu/work/sendip/SendIP/compact.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -g -fPIC -o CMakeFiles/sendip.dir/sendip.c.o -c /home/gpu/work/sendip/SendIP/sendip.c",
+  "file": "/home/gpu/work/sendip/SendIP/sendip.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -g -fPIC -o CMakeFiles/sendip.dir/gnugetopt.c.o -c /home/gpu/work/sendip/SendIP/gnugetopt.c",
+  "file": "/home/gpu/work/sendip/SendIP/gnugetopt.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -g -fPIC -o CMakeFiles/sendip.dir/gnugetopt1.c.o -c /home/gpu/work/sendip/SendIP/gnugetopt1.c",
+  "file": "/home/gpu/work/sendip/SendIP/gnugetopt1.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -g -fPIC -o CMakeFiles/sendip.dir/compact.c.o -c /home/gpu/work/sendip/SendIP/compact.c",
+  "file": "/home/gpu/work/sendip/SendIP/compact.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Dipv6_EXPORTS -g -fPIC -fPIC -o CMakeFiles/ipv6.dir/ipv6.c.o -c /home/gpu/work/sendip/SendIP/ipv6.c",
+  "file": "/home/gpu/work/sendip/SendIP/ipv6.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Dicmp_EXPORTS -g -fPIC -fPIC -o CMakeFiles/icmp.dir/icmp.c.o -c /home/gpu/work/sendip/SendIP/icmp.c",
+  "file": "/home/gpu/work/sendip/SendIP/icmp.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Dtcp_EXPORTS -g -fPIC -fPIC -o CMakeFiles/tcp.dir/tcp.c.o -c /home/gpu/work/sendip/SendIP/tcp.c",
+  "file": "/home/gpu/work/sendip/SendIP/tcp.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Dbgp_EXPORTS -g -fPIC -fPIC -o CMakeFiles/bgp.dir/bgp.c.o -c /home/gpu/work/sendip/SendIP/bgp.c",
+  "file": "/home/gpu/work/sendip/SendIP/bgp.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Dudp_EXPORTS -g -fPIC -fPIC -o CMakeFiles/udp.dir/udp.c.o -c /home/gpu/work/sendip/SendIP/udp.c",
+  "file": "/home/gpu/work/sendip/SendIP/udp.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Drip_EXPORTS -g -fPIC -fPIC -o CMakeFiles/rip.dir/rip.c.o -c /home/gpu/work/sendip/SendIP/rip.c",
+  "file": "/home/gpu/work/sendip/SendIP/rip.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Dripng_EXPORTS -g -fPIC -fPIC -o CMakeFiles/ripng.dir/ripng.c.o -c /home/gpu/work/sendip/SendIP/ripng.c",
+  "file": "/home/gpu/work/sendip/SendIP/ripng.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Dipv4_EXPORTS -g -fPIC -fPIC -o CMakeFiles/ipv4.dir/ipv4.c.o -c /home/gpu/work/sendip/SendIP/ipv4.c",
+  "file": "/home/gpu/work/sendip/SendIP/ipv4.c"
+},
+{
+  "directory": "/home/gpu/work/sendip/SendIP/build_tmp",
+  "command": "/usr/bin/gcc -DSENDIP_LIBS=\\\"lib/sendip\\\" -Dntp_EXPORTS -g -fPIC -fPIC -o CMakeFiles/ntp.dir/ntp.c.o -c /home/gpu/work/sendip/SendIP/ntp.c",
+  "file": "/home/gpu/work/sendip/SendIP/ntp.c"
+}
+]

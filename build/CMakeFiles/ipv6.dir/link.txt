@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,ipv6.so -o ipv6.so CMakeFiles/ipv6.dir/ipv6.c.o  libCOMMON_LIB.a 

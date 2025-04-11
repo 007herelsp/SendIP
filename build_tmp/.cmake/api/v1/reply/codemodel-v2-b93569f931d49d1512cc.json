@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sendip_project_build",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "COMMON_LIB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-COMMON_LIB-Debug-01f5cbb6b36b73e6e209.json",
+					"name" : "COMMON_LIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bgp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bgp-Debug-c1bbcdfe7b57f6f883e8.json",
+					"name" : "bgp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icmp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icmp-Debug-17cd4e9cbcfc323259a3.json",
+					"name" : "icmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ipv4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ipv4-Debug-8bb00f578ee409b767aa.json",
+					"name" : "ipv4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ipv6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ipv6-Debug-d8fbbcfc3b99c6d339a1.json",
+					"name" : "ipv6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ntp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ntp-Debug-46bb5586cfd035d4e92a.json",
+					"name" : "ntp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rip-Debug-451becc1622a0c607c06.json",
+					"name" : "rip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ripng::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ripng-Debug-9246071fe6261d84c96f.json",
+					"name" : "ripng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sendip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sendip-Debug-4da9195952ae3b243af5.json",
+					"name" : "sendip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tcp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tcp-Debug-0799964c0a371faeef9c.json",
+					"name" : "tcp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp-Debug-27bf5cdd74bcd09bfdc0.json",
+					"name" : "udp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gpu/work/sendip/SendIP/build_tmp",
+		"source" : "/home/gpu/work/sendip/SendIP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

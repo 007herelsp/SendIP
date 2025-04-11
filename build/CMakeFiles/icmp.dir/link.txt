@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,icmp.so -o icmp.so CMakeFiles/icmp.dir/icmp.c.o  libCOMMON_LIB.a 

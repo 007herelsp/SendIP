@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.razor": "aspnetcorerazor",
+        "stdint.h": "c",
+        "sendip_module.h": "c",
+        "stdint-gcc.h": "c",
+        "in.h": "c",
+        "types.h": "c"
+    }
+}

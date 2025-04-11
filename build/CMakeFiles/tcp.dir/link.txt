@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,tcp.so -o tcp.so CMakeFiles/tcp.dir/tcp.c.o  libCOMMON_LIB.a 

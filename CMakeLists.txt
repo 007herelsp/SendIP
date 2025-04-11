@@ -40,6 +40,9 @@ target_link_libraries(ntp COMMON_LIB)
 target_link_libraries(bgp COMMON_LIB)
 
 set(CMAKE_SHARED_LIBRARY_PREFIX "")
+# Offer the user the choice of overriding the installation directories
+set (INSTALL_BIN_DIR bin CACHE PATH "Installation directory for executables")
+set (INSTALL_INCLUDE_DIR include CACHE PATH "Installation directory for header files")
 set(CMAKE_INSTALL_LIBDIR "lib/sendip")
 install(
   TARGETS sendip
@@ -54,4 +57,4 @@ install(
           bgp
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-  RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX})
+  RUNTIME DESTINATION ${INSTALL_BIN_DIR})

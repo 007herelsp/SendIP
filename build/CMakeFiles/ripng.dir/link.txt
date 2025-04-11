@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,ripng.so -o ripng.so CMakeFiles/ripng.dir/ripng.c.o  libCOMMON_LIB.a 

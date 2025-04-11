@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,ntp.so -o ntp.so CMakeFiles/ntp.dir/ntp.c.o  libCOMMON_LIB.a 
